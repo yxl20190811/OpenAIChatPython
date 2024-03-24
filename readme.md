@@ -1,15 +1,15 @@
-这是一个python版本到的chatgtp聊天工具，该工具可以通过选择chatgtp的版本切换到chatgtp4.5
-这样就可以不用去购买chatgtp4.5的月费用，而是根据使用流量来支付
-这是一个简单的从openai拷贝过来的程序
+ChatGTP Python 工具
+这是一个 Python 版本的 ChatGTP 聊天工具。该工具允许用户切换到 ChatGTP 4.5 版本，而无需购买 ChatGTP 4.5 的月费用，而是根据使用流量进行支付。这是一个简单的从 OpenAI 拷贝过来的程序。
 
-你首先要有一个openai的账号，并在你计算的系统变量中hyt123保存Openai api key
+准备工作
+首先，你需要拥有一个 OpenAI 的账号。
+在你的计算机系统变量中，设置环境变量 hyt123，并将你的 OpenAI API Key 保存在其中。
+python
+Copy code
+import os
 
-
-程序中将会通过下面的代码，来读取
 key = os.environ['hyt123']
 os.environ['OPENAI_API_KEY'] = key
-
-
-整个程序的使用办法如下
-Install Python version 3.8 or above
-run Python chat.py
+使用方法
+安装 Python 版本 3.8 或以上。
+运行 Python 文件 chat.py。
