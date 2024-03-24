@@ -6,7 +6,6 @@
 
 
 程序中将会通过下面的代码，来读取
-# 初始化OpenAI API
 key = os.environ['hyt123']
 os.environ['OPENAI_API_KEY'] = key
 
